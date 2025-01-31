@@ -10,7 +10,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <div className=''>
         <Routes>
           <Route path='/' element={<Login />} />
